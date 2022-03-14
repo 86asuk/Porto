@@ -1,0 +1,49 @@
+
+.header {
+  background-color: #fff;
+  padding: 10px 0px;
+  @include clearfix;
+
+  .logo {
+    width: 30%;
+    float: left;
+
+    img {
+      width: 160px;
+      margin-top: 10px;
+    }
+  }
+
+  .main-menu {
+    width: 70%;
+    float: left;
+
+    ul {
+      text-align: right;
+      margin-top: 14px;
+      
+      li {
+        display: inline-block;
+
+        a {
+          text-decoration: none;
+          display: inline-block;
+          padding: 10px 20px;
+          color: #333;
+          font-size: 14px;
+          text-transform: uppercase;
+          border-radius: 3px;
+          font-weight: 500;
+
+          &:hover {
+            background-color: $primary-color;
+            color: #fff;
+          }
+
+        }
+      }
+    }
+  }
+
+
+}
